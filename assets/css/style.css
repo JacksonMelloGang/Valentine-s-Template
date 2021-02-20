@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+/* ici change l'url de la police d'écriture pour ton pseudo*/
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgba(168, 50, 177, 0.9);
+    opacity: .95;
+    z-index: 0;
+    background-image: url("../img/Sans Titre-2.png");
+}
+
+nav ul li .nav-item {
+    z-index: 1;
+    border: 1px;
+    width: 0;
+    height: 0;
+
+}
+
+#asmalltext {
+    font-size: 12px;
+}
+
+#image {
+    box-shadow: 2px 4px 5px black;    
+}
+
+nav .container .navbar-brand-logo {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container-audio {
+
+    position: fixed;
+    left: 25px;
+    bottom: .5%;
+    z-index: 999;
+    width: 30%;
+    height: auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #eee;
+    color: #444;
+    margin: 20px auto;
+    overflow: hidden;
+}
+audio {
+  width:100%;
+}
+
+#aa {
+    background-image: url(../img/fzrtgeh.png);
+    color:rgba(9, 161, 255, 0.233);
+}
